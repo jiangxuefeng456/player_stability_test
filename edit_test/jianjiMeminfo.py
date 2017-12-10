@@ -33,7 +33,7 @@ class Controller(object):
                     rh = mrh / 1024
 
                     # 将获取到的心跳数据存到数组中
-                    #self.alldataheart.append((cpuinfosheart, vh, rh, packnameheart))
+                    self.alldataheart.append((cpuinfosheart, vh, rh, packnameheart))
                     #ih = ih + 1
 
     #数据的存储
@@ -47,6 +47,6 @@ class Controller(object):
         csvfileheart.close()
 
 if __name__ == "__main__":
-    controller = Controller(50)
+    controller = Controller(100)
     controller.testPowerCpu()
     controller.SaveDataToCSV()
