@@ -17,11 +17,11 @@ class Controller(object):
         while self.counter >0:
             resultpc = os.popen("adb shell top -m 500 -n 1 -s cpu")
             self.counter = self.counter - 1
-            time.sleep(10)
+            time.sleep(5)
 
             for line in resultpc:
-                if "com.financial360.nicaifu:PushClient" not in line:
-                    if "com.financial360.nicaifu" in line:
+                if "com.xvideostudio.videoeditor:servicebadgesprot" not in line:
+                    if "com.xvideostudio.videoeditor" in line:
                         print line
                         line = "#".join(line.split())
                         cpuinfos = line.split("#")[2].strip("%")

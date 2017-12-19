@@ -1,10 +1,7 @@
 #encoding:utf-8
-from appium import webdriver
 import time
-import random
-import logging
-from cpuNews import Controller
-from popwernews import ControllerPower
+
+from appium import webdriver
 
 desired_caps={
             'platformName':'Android',

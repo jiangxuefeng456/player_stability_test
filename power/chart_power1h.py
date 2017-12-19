@@ -11,9 +11,7 @@ ax1.plot(r1['360power'],label="360")
 ax1.plot(r1['alipower'],label="ali")
 ax1.legend(ncol=2,loc=0)
 ax1.set_title(u"power")
-#ax2 = fig.add_subplot(212)
-#ax2.plot(r1['timestamp'],r1['temperate'],'--',label ="temperature")
-#ax2.set_title(u"rest_power（%）")
+
 
 plt.show()
 

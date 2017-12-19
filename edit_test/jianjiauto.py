@@ -17,7 +17,7 @@ desired_caps={
 driver=webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 
 #之前未加延时，结果看不到滑动效果
-time.sleep(5)
+time.sleep(3)
 def getSize():
     x = driver.get_window_size()['width']
     y = driver.get_window_size()['height']
@@ -40,46 +40,45 @@ def swipeDown(t):
 def testClick():
     #点击视频编辑
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/btn_video_edtior").click()
-    time.sleep(5)
+    time.sleep(1)
 
 def chooseFile():
     #选择文件
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/choose_file").click()
-    time.sleep(5)
+    time.sleep(2)
 
 def checkPicture():
     #选择图片
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/check").click()
-    time.sleep(5)
+    time.sleep(2)
 
 def checkDone():
     #已完成选择
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/picture_tv_ok").click()
-    time.sleep(5)
+    time.sleep(4)
 
 def editPicture():
     #执行编辑操作：剪切
-    time.sleep(5)
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/edit_cut").click()
     time.sleep(3)
 
 def tiePicture():
     # 加音乐
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/edit_set_music").click()
-    time.sleep(3)
+    time.sleep(2)
 
 def playPicture():
     #播放
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/edit_play").click()
-    time.sleep(10)
+    time.sleep(8)
 
 def playExport():
     #导出文件
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/edit_export").click()
-    time.sleep(20)
+    time.sleep(60)
 
 def backClick():
-    #播放导出后，按返回键，继续选择文件重复上面剪辑操作（明天让开发在导出后的页面加一个返回按钮）
+    # 手机虚拟键返回
     driver.keyevent(4)
     time.sleep(2)
 
@@ -93,7 +92,7 @@ while clickCount>0:
     testClick()
     clickCount = clickCount - 1
 
-testCount = 100
+testCount =28
 while testCount>0:
     chooseFile()
     checkPicture()
