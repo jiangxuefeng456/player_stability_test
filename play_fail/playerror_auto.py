@@ -70,7 +70,7 @@ while count >0:
     checkVideo()
     count = count - 1
 
-testCount =30
+testCount =10
 while testCount>0:
     swipeLeft(1000)
     time.sleep(5)

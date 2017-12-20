@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f5c6d3-d333-4e06-95d7-111249150e06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_test/jianjiPower.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_test/jianjipowers.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/first_screen_starttime/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/first_screen_starttime/first_screen_start_time.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/first_screen_starttime/firsttest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/play_fail/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/play_fail/play_fail.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/power/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/power/popwernews.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vod_player_stability_test/cpusnewtatus.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vod_player_stability_test/launchtimeinfo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vod_player_stability_test/meminfo.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vod_player_stability_test/meminfoheart.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vod_player_stability_test/ncf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vod_player_stability_test/popwerNews.csv" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vod_player_stability_test/__init__.py" afterPath="$PROJECT_DIR$/cpu_meminfo/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vod_player_stability_test/chart_power1h.py" afterPath="$PROJECT_DIR$/power/chart_power1h.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vod_player_stability_test/cpumem.py" afterPath="$PROJECT_DIR$/cpu_meminfo/cpumem.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vod_player_stability_test/ksptest.py" afterPath="$PROJECT_DIR$/cpu_meminfo/ksptest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vod_player_stability_test/meminfonews" afterPath="$PROJECT_DIR$/edit_test/jianjipowers.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vod_player_stability_test/popwernews.py" afterPath="$PROJECT_DIR$/edit_test/jianjiPower.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vod_player_stability_test/powermatlib.py" afterPath="$PROJECT_DIR$/power/powermatlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/play_fail/playerror_auto.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_test/jianjiMeminfo.py" afterPath="$PROJECT_DIR$/edit_test/jianjiMeminfo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_test/jianjiauto.py" afterPath="$PROJECT_DIR$/edit_test/jianjiauto.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_test/jianjimem.csv" afterPath="$PROJECT_DIR$/edit_test/jianjimem.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first_screen_starttime/firsttest.py" afterPath="$PROJECT_DIR$/first_screen_starttime/firsttest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/play_fail/play_fail.py" afterPath="$PROJECT_DIR$/play_fail/play_fail.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,41 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="play_fail.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/play_fail/play_fail.py">
+      <file leaf-file-name="first_frametime.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first_screen_starttime/first_frametime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="276">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popwernews.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/power/popwernews.py">
+      <file leaf-file-name="firsttime.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_screen_starttime/firsttime.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="powermatlib.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/power/powermatlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chart_power1h.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/power/chart_power1h.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="815" column="29" lean-forward="false" selection-start-line="815" selection-start-column="29" selection-end-line="815" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -100,50 +58,8 @@
       <file leaf-file-name="firsttest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_screen_starttime/firsttest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="52" column="64" lean-forward="true" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jianjiauto.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_test/jianjiauto.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2392">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jianjimem.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_test/jianjimem.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ksptest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cpu_meminfo/ksptest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cpumem.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cpu_meminfo/cpumem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+            <state relative-caret-position="137">
+              <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -164,6 +80,7 @@
       <find>list</find>
       <find>com.qihoo</find>
       <find>power</find>
+      <find>onError</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,11 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/matplotlib/matcpulib.py" />
-        <option value="$PROJECT_DIR$/mat/matcpu.py" />
-        <option value="D:/weiAutotest/Gemini/python/meminfo_matlab.py" />
-        <option value="$PROJECT_DIR$/launchTimeLog/111.py" />
-        <option value="$PROJECT_DIR$/cpuPercent/cpuinfomatlib.py" />
         <option value="$PROJECT_DIR$/matlabinfo/cpumatlib.py" />
         <option value="$PROJECT_DIR$/matlabinfo/meminfo.py" />
         <option value="$PROJECT_DIR$/memOcc/meminfo" />
@@ -223,6 +135,11 @@
         <option value="$PROJECT_DIR$/edit_test/jianjiMeminfo.py" />
         <option value="$PROJECT_DIR$/vod_player_stability_test/play_fail.py" />
         <option value="$PROJECT_DIR$/vod_player_stability_test/chart_power1h.py" />
+        <option value="$PROJECT_DIR$/play_fail/playerror_auto.py" />
+        <option value="$PROJECT_DIR$/play_fail/play_fail.py" />
+        <option value="$PROJECT_DIR$/play_fail/errorwhat.csv" />
+        <option value="$PROJECT_DIR$/first_screen_starttime/firsttest.py" />
+        <option value="$PROJECT_DIR$/first_screen_starttime/firsttime.csv" />
       </list>
     </option>
   </component>
@@ -253,6 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,19 +197,12 @@
             <path>
               <item name="player_stability_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="player_stability_test" type="462c0819:PsiDirectoryNode" />
-              <item name="play_fail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="player_stability_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="player_stability_test" type="462c0819:PsiDirectoryNode" />
               <item name="power" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,16 +211,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\play_fail" />
-      <recent name="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\power" />
-      <recent name="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\first_screen_starttime" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\play_fail" />
       <recent name="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\edit_test" />
       <recent name="C:\Users\jiangxuefeng\PycharmProjects\untitled\jianji" />
       <recent name="C:\Users\jiangxuefeng\PycharmProjects\untitled\autotest" />
       <recent name="C:\Users\jiangxuefeng\PycharmProjects\untitled\launchTimeLog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\play_fail" />
+      <recent name="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\power" />
+      <recent name="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\first_screen_starttime" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chart_power1h">
+  <component name="RunManager" selected="Python.first_frametime (1)">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -487,38 +400,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="fenxi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="first_frametime (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vod_player_stability_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_screen_starttime" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\first_screen_starttime\first_frametime.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="first_frametime" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vod_player_stability_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\first_screen_starttime\first_frametime.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_screen_starttime/first_frametime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -530,49 +425,67 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vod_player_stability_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first_screen_starttime" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\jiangxuefeng\PycharmProjects\player_stability_test\first_screen_starttime\firsttest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_screen_starttime/firsttest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="jianjiMeminfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="play_fail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/edit_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/play_fail" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/edit_test/jianjiMeminfo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/play_fail/play_fail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="playerror_auto" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/play_fail" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/play_fail/playerror_auto.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.firsttest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.fenxi" />
-      <item index="2" class="java.lang.String" itemvalue="Python.first_frametime" />
-      <item index="3" class="java.lang.String" itemvalue="Python.jianjiMeminfo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.chart_power1h" />
+      <item index="0" class="java.lang.String" itemvalue="Python.chart_power1h" />
+      <item index="1" class="java.lang.String" itemvalue="Python.play_fail" />
+      <item index="2" class="java.lang.String" itemvalue="Python.playerror_auto" />
+      <item index="3" class="java.lang.String" itemvalue="Python.first_frametime (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.firsttest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.chart_power1h" />
-        <item index="1" class="java.lang.String" itemvalue="Python.jianjiMeminfo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.first_frametime" />
-        <item index="3" class="java.lang.String" itemvalue="Python.firsttest" />
-        <item index="4" class="java.lang.String" itemvalue="Python.fenxi" />
+        <item index="0" class="java.lang.String" itemvalue="Python.first_frametime (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.firsttest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.play_fail" />
+        <item index="3" class="java.lang.String" itemvalue="Python.playerror_auto" />
+        <item index="4" class="java.lang.String" itemvalue="Python.chart_power1h" />
       </list>
     </recent_temporary>
   </component>
@@ -623,14 +536,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13385417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56236786" sideWeight="0.39270833" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14799154" sideWeight="0.60729164" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5687104" sideWeight="0.60729164" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -672,10 +584,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autotest/cpuOcc.py" />
-    <entry file="file://$PROJECT_DIR$/autotest/zhengze.py" />
-    <entry file="file://$PROJECT_DIR$/autotest/getpackname.py" />
-    <entry file="file://$PROJECT_DIR$/autotest/cpunewstatus.csv" />
     <entry file="file://$PROJECT_DIR$/memOcc/meminfo" />
     <entry file="file://D:/IOS性能测试/smallapple-master/plugins/report/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -687,13 +595,7 @@
     <entry file="file://$PROJECT_DIR$/launchTimeLog/launchtime2.py" />
     <entry file="file://$PROJECT_DIR$/cpuPercent/cpustatus.csv" />
     <entry file="file://$PROJECT_DIR$/cpuPercent/cpuOcc.py" />
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/cpusnewtatus.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/cpusnewtatus.csv" />
     <entry file="file://$PROJECT_DIR$/memOcc/meminfoheart.csv" />
     <entry file="file://$PROJECT_DIR$/popwerConsume/popwercon.py" />
     <entry file="file://$PROJECT_DIR$/memOcc/meminfo.csv" />
@@ -701,34 +603,10 @@
     <entry file="file://$PROJECT_DIR$/memOcc/meminfo.py" />
     <entry file="file://$PROJECT_DIR$/trafficConsume/traffic.csv" />
     <entry file="file://$PROJECT_DIR$/trafficConsume/trafficinfo.py" />
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/popwerNews.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="137" column="7" lean-forward="true" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/meminfonews">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/meminfoheart.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/meminfo.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/popwerNews.csv" />
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/meminfonews" />
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/meminfoheart.csv" />
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/meminfo.csv" />
     <entry file="file://$PROJECT_DIR$/autotest/cpuNews.py" />
     <entry file="file://$PROJECT_DIR$/autotest/firstFrame.py" />
     <entry file="file://$PROJECT_DIR$/autotest/swipetest.py" />
@@ -743,11 +621,7 @@
     <entry file="file://$PROJECT_DIR$/matlabinfo/launchtime_matlab.py" />
     <entry file="file://$PROJECT_DIR$/matlabinfo/memmatlib.py" />
     <entry file="file://$PROJECT_DIR$/matlabinfo/popwermatlib.py" />
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/launchtimeinfo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/launchtimeinfo.png" />
     <entry file="file://E:/pythontest/launchTimeLog/launchtime2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -763,42 +637,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vod_player_stability_test/firsttime" />
-    <entry file="file://$PROJECT_DIR$/first_screen_starttime/first_screen_start_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/firsttime.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="237" column="81" lean-forward="false" selection-start-line="237" selection-start-column="81" selection-end-line="237" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/firstrendertime.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_screen_starttime/lll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_screen_starttime/first_frametime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/firsttime.csv" />
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/firstrendertime.csv" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-156535534/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -818,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,18 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play_fail/play_fail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/power/popwernews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="322">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -857,7 +687,7 @@
     <entry file="file://$PROJECT_DIR$/power/powermatlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -865,41 +695,98 @@
     <entry file="file://$PROJECT_DIR$/power/chart_power1h.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_screen_starttime/firsttest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="52" column="64" lean-forward="true" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cpu_meminfo/ksptest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        <state relative-caret-position="506">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
-            <element signature="e#16#27#0" expanded="true" />
+            <element signature="e#16#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/ncf.py">
+    <entry file="file://$PROJECT_DIR$/vod_player_stability_test/ncf.py" />
+    <entry file="file://$PROJECT_DIR$/first_screen_starttime/lll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/play_fail/errorwhatnews.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/play_fail/play_fail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cpu_meminfo/cpumem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        <state relative-caret-position="207">
+          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/play_fail/playerror_auto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/play_fail/errorwhat.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="27500" column="42" lean-forward="false" selection-start-line="27500" selection-start-column="42" selection-end-line="27500" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_screen_starttime/first_screen_start_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_screen_starttime/firsttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_screen_starttime/firsttime.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="815" column="29" lean-forward="false" selection-start-line="815" selection-start-column="29" selection-end-line="815" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_screen_starttime/first_frametime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding />
         </state>
       </provider>

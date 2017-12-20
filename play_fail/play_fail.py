@@ -3,27 +3,35 @@
 import csv
 import os
 import  time
-# adb logcat | grep "url" > a.txt
+# adb logcat | grep "[onError:396]" > a.txt
 #控制类
 class Controller(object):
     def __init__(self):
+        #self.counter = count
         #定义收集数据的数组(元组必须有至少两个元素，如果一个元素的话，要在后面加上逗号,比如[("time",)])
-        self.alldata = [("testnumber","first_render_frame_time")]
+        self.alldata = [("testNumber","ErrorTime","errorchance","resourseID","url")]
 
     #分析数据
     def analyzedata(self):
+        #while self.counter > 0:
         content = self.readfile()
-        testCount = 100
-        i = 0
+        testCount = 11.0
+        errorCount = 0
+        errorProbability = 0
         for line in content:
             if "onError what" in line:
                 print line
-                line = "=".join(line.split())
-                ftime = line.split("=")[11].strip(",")
-                print ftime
+                line = "12-20".join(line.split())
+                videoRID = line.split("12-20")[14]
+                videoURL = line.split("12-20")[16]
+                print ("失败视频rid: "+videoRID)
+                print ("失败视频url: "+videoURL)
                 #将获取到的数据存到数组中
-                self.alldata.append((i,ftime))
-                i = i + 1
+                errorCount = errorCount + 1
+
+        errorProbability = errorCount / testCount
+        print ("失败率: "+str(errorProbability))
+        self.alldata.append((testCount,errorCount,errorProbability,videoRID,videoURL))
 
     #数据的存储
     def SaveDataToCSV(self):
