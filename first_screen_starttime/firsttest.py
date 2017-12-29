@@ -67,14 +67,14 @@ count = 1
 while count >0:
     testClick()
     chooseLightSky()
-    time.sleep(15)
+    time.sleep(25)
     checkVideo()
     count = count - 1
 
-testCount =300
+testCount =500
 while testCount>0:
     swipeLeft(1000)
-    time.sleep(10)
+    time.sleep(15)
     testCount = testCount - 1
 
 

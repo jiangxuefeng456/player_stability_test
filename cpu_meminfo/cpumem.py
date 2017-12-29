@@ -30,8 +30,8 @@ class Controller(object):
                         packname = line.split("#")[9]
                         mvss = int(vss)
                         mrss = int(rss)
-                        vs = mvss / 1024
-                        rs = mrss / 1024
+                        vs = mvss / 1024.0
+                        rs = mrss / 1024.0
 
                         # 将获取到的数据存到数组中
                         self.alldata.append((cpuinfos, vs, rs, packname))

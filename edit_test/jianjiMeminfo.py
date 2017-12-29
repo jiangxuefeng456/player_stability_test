@@ -17,27 +17,24 @@ class Controller(object):
         while self.counter >0:
             resultpc = os.popen("adb shell top -m 500 -n 1 -s cpu")
             self.counter = self.counter - 1
-            time.sleep(5)
-            i = 0
+            time.sleep(2)
+            #i = 0
             for line in resultpc:
-                if "com.xvideostudio.videoeditor:servicebadgesprot" not in line:
-                    if "com.xvideostudio.videoeditor:servicebadges" not in line:
-                        if "com.xvideostudio.videoeditor:channel" not in line:
-                            if "com.xvideostudio.videoeditor" in line:
-                                print line
-                                line = "#".join(line.split())
-                                cpuinfosheart = line.split("#")[2].strip("%")
-                                vssheart = line.split("#")[5].strip("K")
-                                rssheart = line.split("#")[6].strip("K")
-                                packnameheart = line.split("#")[9]
-                                mvh = int(vssheart)
-                                vh = mvh / 1024
-                                mrh = int(rssheart)
-                                rh = mrh / 1024-50
-                                if i/2 ==0:
-                                    # 将获取到的心跳数据存到数组中
-                                    self.alldataheart.append((cpuinfosheart, vh, rh, packnameheart))
-                                    i = i + 2
+                if "com.qihoo.livecloudrefactor" in line:
+                    print line
+                    line = "#".join(line.split())
+                    cpuinfosheart = line.split("#")[2].strip("%")
+                    vssheart = line.split("#")[5].strip("K")
+                    rssheart = line.split("#")[6].strip("K")
+                    packnameheart = line.split("#")[9]
+                    mvh = int(vssheart)
+                    vh = mvh / 1024
+                    mrh = int(rssheart)
+                    rh = mrh / 1024-50
+                    #if i/2 ==0:
+                    # 将获取到的心跳数据存到数组中
+                    self.alldataheart.append((cpuinfosheart, vh, rh, packnameheart))
+                    #i = i + 2
 
     #数据的存储
     def SaveDataToCSV(self):
@@ -50,6 +47,6 @@ class Controller(object):
         csvfileheart.close()
 
 if __name__ == "__main__":
-    controller = Controller(2)
+    controller = Controller(1)
     controller.testPowerCpu()
     controller.SaveDataToCSV()
