@@ -64,18 +64,18 @@ class Controller(object):
                     self.counter = self.counter - 1
 
     #数据的存储
-    def SaveDataToCSV(self):
-        csvfile = file('startEndtime.csv', 'wb')
-        writer = csv.writer(csvfile)
-        writer.writerows(self.alldata)
-        csvfile.close()
+    #def SaveDataToCSV(self):
+     #   csvfile = file('startEndtime.csv', 'wb')
+      #  writer = csv.writer(csvfile)
+       # writer.writerows(self.alldata)
+        #csvfile.close()
 
     #读取数据文件
-    def readfile(self):
-        mfile = file("muxing.csv", "r")
-        content = mfile.readlines()
-        mfile.close()
-        return  content
+    #def readfile(self):
+     #   mfile = file("muxing.csv", "r")
+      #  content = mfile.readlines()
+       # mfile.close()
+        #return  content
 
 if __name__ == "__main__":
     controller = Controller(3)
