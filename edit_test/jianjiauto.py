@@ -75,6 +75,7 @@ def playPicture():
 def playExport():
     #导出文件
     driver.find_element_by_id("com.qihoo.livecloudrefactor:id/edit_export").click()
+
     time.sleep(60)
 
 def backClick():
@@ -92,13 +93,13 @@ while clickCount>0:
     testClick()
     clickCount = clickCount - 1
 
-testCount =28
+testCount =30
 while testCount>0:
     chooseFile()
     checkPicture()
     checkDone()
     editPicture()
-    tiePicture()
+    #tiePicture()
     playPicture()
     playExport()
     backClick()

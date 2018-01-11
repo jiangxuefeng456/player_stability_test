@@ -17,7 +17,7 @@ class Controller(object):
         while self.counter >0:
             resultpc = os.popen("adb shell top -m 500 -n 1 -s cpu")
             self.counter = self.counter - 1
-            time.sleep(2)
+            time.sleep(60)
             #i = 0
             for line in resultpc:
                 if "com.qihoo.livecloudrefactor" in line:
@@ -47,6 +47,6 @@ class Controller(object):
         csvfileheart.close()
 
 if __name__ == "__main__":
-    controller = Controller(1)
+    controller = Controller(30)
     controller.testPowerCpu()
     controller.SaveDataToCSV()
